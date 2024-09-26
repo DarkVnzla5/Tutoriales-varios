@@ -1,40 +1,35 @@
 import React from "react";
 import { useState } from "react";
 
-export default function BT_SR() {
-  const [show, setShow] = useState(true);
+export function BT_SR() {
+  const [show, setShow] = useState(false);
   return (
     <div className="flex md:order-2">
-      {show ? (
-        <div>
-          <button
-            onClick={() => setShow(!show)}
-            type="button"
-            data-collapse-toggle="navbar-search"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 20 20"
-            className="md:block text-gray-800 hover:bg-black focus:ring-1 focus:ring-black rounded-lg text-sm p-2.5 me-1"
-          >
-            <svg
-              className="w-5 h-5"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 20 20"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-              />
-            </svg>
-          </button>
-        </div>
-      ) : (
-        ""
-      )}
+      <button
+        onClick={() => setShow(!show)}
+        type="button"
+        data-collapse-toggle="navbar-search"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 20 20"
+        className="md:hidden text-gray-800 hover:bg-black focus:ring-1 focus:ring-black rounded-lg text-sm p-2.5 me-1"
+      >
+        <svg
+          className="w-5 h-5"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 20 20"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+          />
+        </svg>
+      </button>
+
       <div className="relative hidden md:block">
         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
           <svg

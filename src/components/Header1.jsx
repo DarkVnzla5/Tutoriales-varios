@@ -1,5 +1,5 @@
 import React from "react";
-import BT_SR from "./Buttons";
+import { BT_SR, BTN_SRC } from "./Buttons";
 
 export default function Header() {
   return (
