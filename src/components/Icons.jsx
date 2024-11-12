@@ -1,51 +1,181 @@
-export function AddToCartIcon () {
+export function AddToCartIcon() {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
-      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 17h-11v-14h-2' />
-      <path d='M6 5l6 .429m7.138 6.573l-.143 1h-13' />
-      <path d='M15 6h6m-3 -3v6' />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      strokeWidth="1"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17h-11v-14h-2" />
+      <path d="M6 5l6 .429m7.138 6.573l-.143 1h-13" />
+      <path d="M15 6h6m-3 -3v6" />
     </svg>
-  )
+  );
 }
 
-export function RemoveFromCartIcon () {
+export function RemoveFromCartIcon() {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
-      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 17h-11v-14h-2' />
-      <path d='M6 5l8 .571m5.43 4.43l-.429 3h-13' />
-      <path d='M17 3l4 4' />
-      <path d='M21 3l-4 4' />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      strokeWidth="1"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17h-11v-14h-2" />
+      <path d="M6 5l8 .571m5.43 4.43l-.429 3h-13" />
+      <path d="M17 3l4 4" />
+      <path d="M21 3l-4 4" />
     </svg>
-  )
+  );
 }
 
-export function ClearCartIcon () {
+export function ClearCartIcon() {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
-      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 17a2 2 0 1 0 2 2' />
-      <path d='M17 17h-11v-11' />
-      <path d='M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7' />
-      <path d='M3 3l18 18' />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      strokeWidth="1"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17a2 2 0 1 0 2 2" />
+      <path d="M17 17h-11v-11" />
+      <path d="M9.239 5.231l10.761 .769l-1 7h-2m-4 0h-7" />
+      <path d="M3 3l18 18" />
     </svg>
-  )
+  );
 }
 
-export function CartIcon () {
+export function CartIcon() {
   return (
-    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' strokeWidth='1' stroke='currentColor' fill='none' strokeLinecap='round' strokeLinejoin='round'>
-      <path stroke='none' d='M0 0h24v24H0z' fill='none' />
-      <path d='M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0' />
-      <path d='M17 17h-11v-14h-2' />
-      <path d='M6 5l14 1l-1 7h-13' />
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      strokeWidth="1"
+      stroke="currentColor"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+      <path d="M17 17h-11v-14h-2" />
+      <path d="M6 5l14 1l-1 7h-13" />
     </svg>
-  )
+  );
+}
+export function Flag_us() {
+  return (
+    <svg
+      fill="none"
+      height="24"
+      viewBox="0 0 32 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <mask
+        id="a"
+        height="24"
+        maskUnits="userSpaceOnUse"
+        width="32"
+        x="0"
+        y="0"
+      >
+        <path d="m0 0h32v24h-32z" fill="#fff" />
+      </mask>
+      <g mask="url(#a)">
+        <g clip-rule="evenodd" fill-rule="evenodd">
+          <path d="m0 0h32v24h-32z" fill="#f7fcff" />
+          <path d="m0 14.6667v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 18.3333v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 7.33325v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 22v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 11v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 0v2h32v-2z" fill="#e31d1c" />
+          <path d="m0 3.66675v2h32v-2z" fill="#e31d1c" />
+        </g>
+        <path d="m0 0h20v13h-20z" fill="#2e42a5" />
+        <path
+          clip-rule="evenodd"
+          d="m1.72197 2.93871-.725883.50888.245063-.90561-.644714-.57391h.842084l.28243-.73907.33117.73907h.71786l-.56404.57391.21836.90561zm4 0-.72588.50888.24506-.90561-.64471-.57391h.84208l.28243-.73907.33117.73907h.71786l-.56404.57391.21836.90561zm3.27412.50888.72588-.50888.70233.50888-.2184-.90561.5641-.57391h-.7179l-.33115-.73907-.28243.73907h-.84208l.64471.57391zm4.72591-.50888-.7259.50888.2451-.90561-.6448-.57391h.8421l.2825-.73907.3311.73907h.7179l-.5641.57391.2184.90561zm-12.725913 4.50888.725883-.50888.70233.50888-.21836-.90561.56404-.57391h-.71786l-.33117-.73907-.28243.73907h-.842084l.644714.57391zm4.725883-.50888-.72588.50888.24506-.90561-.64471-.57391h.84208l.28243-.73907.33117.73907h.71786l-.56404.57391.21836.90561zm3.27412.50888.72588-.50888.70233.50888-.2184-.90561.5641-.57391h-.7179l-.33115-.73907-.28243.73907h-.84208l.64471.57391zm4.72591-.50888-.7259.50888.2451-.90561-.6448-.57391h.8421l.2825-.73907.3311.73907h.7179l-.5641.57391.2184.90561zm-12.725913 4.50889.725883-.5089.70233.5089-.21836-.9056.56404-.57393h-.71786l-.33117-.73907-.28243.73907h-.842084l.644714.57393zm4.725883-.5089-.72588.5089.24506-.9056-.64471-.57393h.84208l.28243-.73907.33117.73907h.71786l-.56404.57393.21836.9056zm3.27412.5089.72588-.5089.70233.5089-.2184-.9056.5641-.57393h-.7179l-.33115-.73907-.28243.73907h-.84208l.64471.57393zm4.72591-.5089-.7259.5089.2451-.9056-.6448-.57393h.8421l.2825-.73907.3311.73907h.7179l-.5641.57393.2184.9056zm3.2741-7.49111.7259-.50888.7023.50888-.2184-.90561.5641-.57391h-.7179l-.3311-.73907-.2825.73907h-.8421l.6448.57391zm.7259 3.49112-.7259.50888.2451-.90561-.6448-.57391h.8421l.2825-.73907.3311.73907h.7179l-.5641.57391.2184.90561zm-.7259 4.50889.7259-.5089.7023.5089-.2184-.9056.5641-.57393h-.7179l-.3311-.73907-.2825.73907h-.8421l.6448.57393zm-13.27413-6.50889-.72588.50888.24506-.90561-.64471-.57391h.84208l.28243-.73907.33117.73907h.71786l-.56404.57391.21836.90561zm3.27412.50888.72588-.50888.70233.50888-.21836-.90561.56404-.57391h-.71786l-.33117-.73907-.28243.73907h-.84208l.64471.57391zm4.72591-.50888-.7259.50888.2451-.90561-.6448-.57391h.8421l.2825-.73907.3311.73907h.7179l-.5641.57391.2184.90561zm-8.72591 4.50888.72588-.50888.70233.50888-.21836-.90561.56404-.57391h-.71786l-.33117-.73907-.28243.73907h-.84208l.64471.57391zm4.72588-.50888-.72588.50888.24506-.90561-.64471-.57391h.84208l.28243-.73907.33117.73907h.71786l-.56404.57391.21836.90561zm3.27413.50888.7259-.50888.7023.50888-.2184-.90561.5641-.57391h-.7179l-.3311-.73907-.2825.73907h-.8421l.6448.57391zm4.7259-4.50888-.7259.50888.2451-.90561-.6448-.57391h.8421l.2825-.73907.3311.73907h.7179l-.5641.57391.2184.90561zm-.7259 4.50888.7259-.50888.7023.50888-.2184-.90561.5641-.57391h-.7179l-.3311-.73907-.2825.73907h-.8421l.6448.57391z"
+          fill="#f7fcff"
+          fill-rule="evenodd"
+        />
+      </g>
+    </svg>
+  );
+}
+export function Flag_ven() {
+  return (
+    <svg
+      fill="none"
+      height="24"
+      viewBox="0 0 32 24"
+      width="32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <mask
+        id="a"
+        height="24"
+        maskUnits="userSpaceOnUse"
+        width="32"
+        x="0"
+        y="0"
+      >
+        <path d="m0 0h32v24h-32z" fill="#fff" />
+      </mask>
+      <mask
+        id="b"
+        height="24"
+        maskUnits="userSpaceOnUse"
+        width="32"
+        x="0"
+        y="0"
+      >
+        <path
+          clip-rule="evenodd"
+          d="m0 0v24h32v-24z"
+          fill="#fff"
+          fill-rule="evenodd"
+        />
+      </mask>
+      <g clip-rule="evenodd" fill-rule="evenodd" mask="url(#a)">
+        <path d="m0 0v24h32v-24z" fill="#2e42a5" />
+        <g mask="url(#b)">
+          <path d="m0 0v8h32v-8z" fill="#feca00" />
+          <path d="m0 16v8h32v-8z" fill="#e31d1c" />
+          <g fill="#f7fcff">
+            <path d="m12.7368 11.8593.9827-.5574 1.1026.5574-.3959-1.133.8235-.83257h-1.0481l-.4836-1.0722-.4123 1.0722h-1.2295l.9245.81767h-1.0369l-.4835-1.07216-.4124 1.07216h-1.2295l.9413.8326-.1799.7264h-.78455l-.48354-1.0722-.41237 1.0722h-1.22951l.94134.8326-.1741.7028h-.34349l-.48354-1.0722-.41237 1.0722h-1.22951l.94134.8326-.28066 1.133.98268-.5575 1.10262.5575-.39597-1.133.82353-.8326h-.05291l.2244-.1273 1.10261.5575-.396-1.133.472-.4772-.0127.0512.9827-.5574 1.1026.5574-.396-1.133.8183-.8272.0108.0095z" />
+            <path d="m19.223 11.8156-.9827-.5574-1.1026.5574.396-1.133-.8236-.83258h1.0482l.4835-1.07219.4124 1.07219h1.2295l-.9245.81768h1.0417l.4835-1.07216.4124 1.07216h1.2295l-.9413.8326.1799.7264h.7846l.4835-1.0722.4124 1.0722h1.2295l-.9413.8326.1741.7028h.3434l.4836-1.0722.4123 1.0722h1.2296l-.9414.8326.2807 1.133-.9827-.5575-1.1026.5575.396-1.133-.8236-.8326h.0529l-.2244-.1273-1.1026.5575.396-1.133-.4719-.4772.0126.0512-.9826-.5574-1.1027.5574.396-1.133-.8205-.8296-.0135.0119z" />
+            <path d="m15.8329 10.5348-.9826.5575.2806-1.13307-.9413-.83259h1.2295l.4124-1.0722.4835 1.0722h1.0481l-.8235.83259.396 1.13307z" />
+          </g>
+        </g>
+      </g>
+    </svg>
+  );
 }

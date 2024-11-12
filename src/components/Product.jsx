@@ -1,36 +1,29 @@
-import "./Products.css";
-import React from "react";
 import { AddToCartIcon } from "./Icons";
+import Details from "./Details";
 
 function Products({ products }) {
   return (
-    <main className="products relative top-28   w-full flex justify-center items-center">
-      <div>
-        <ul className="grid gap-4">
+    <div className="bg-slate-700 relative w-3/4 justify-around items-center flex-wrap">
+      <div className="">
+        <ul className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  p-4 gap-4">
           {products.map((product) => (
             <li
               key={product.id}
-              className="flex flex-col gap-4 rounded-sm shadow bg-cyan-600 border-black p-4"
+              className="flex flex-col gap-4 rounded-sm size-full bg-orange-700 border-black border-2 p-4"
             >
-              <img
-                src={product.thumbnail}
-                alt={product.title}
-                className="rounded-md w-full block bg-white object-cover aspect-video"
-              />
-              <div>
-                <p className="text-base text-left text-black font-bold">
+              <a href={<Details />}>
+                <img
+                  src={product.thumbnail}
+                  alt={product.title}
+                  className="size-full aspect-video border-2 border-black rounded"
+                />
+              </a>
+              <div className="border-2 border-black p-2 rounded">
+                <p className="text-xl text-left text-black font-bold">
                   {product.title}
                 </p>
                 <p className="text-base text-left text-black font-bold">
-                  {product.brand}
-                </p>
-              </div>
-              <div>
-                <p className="text-xl text-left text-black font-bold">
-                  {product.price} Bs
-                </p>
-                <p className="text-base text-left text-black font-bold">
-                  {product.stock} On Stock
+                  Precio: {product.price} US$ {product.extra}
                 </p>
               </div>
               <div>
@@ -41,16 +34,11 @@ function Products({ products }) {
                   <AddToCartIcon />
                 </button>
               </div>
-              <div>
-                <p className="text-sm text-left text-black font-bold">
-                  {product.description}
-                </p>
-              </div>
             </li>
           ))}
         </ul>
       </div>
-    </main>
+    </div>
   );
 }
 export default Products;
