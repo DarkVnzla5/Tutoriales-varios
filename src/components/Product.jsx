@@ -1,11 +1,10 @@
-import { AddToCartIcon } from "./Icons";
 import Details from "./Details";
 
 function Products({ products }) {
   return (
     <div className="bg-slate-700 relative w-3/4 justify-around items-center flex-wrap">
       <div className="">
-        <ul className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1  p-4 gap-4">
+        <ul className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-1 m-1 gap-2">
           {products.map((product) => (
             <li
               key={product.id}
@@ -18,21 +17,13 @@ function Products({ products }) {
                   className="size-full aspect-video border-2 border-black rounded"
                 />
               </a>
-              <div className="border-2 border-black p-2 rounded">
+              <div className="border-2 size-full border-black p-2 rounded">
                 <p className="text-xl text-left text-black font-bold">
                   {product.title}
                 </p>
                 <p className="text-base text-left text-black font-bold">
                   Precio: {product.price} US$ {product.extra}
                 </p>
-              </div>
-              <div>
-                <button
-                  type="button"
-                  className=" text-black hover:bg-yellow-500"
-                >
-                  <AddToCartIcon />
-                </button>
               </div>
             </li>
           ))}

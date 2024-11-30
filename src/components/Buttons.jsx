@@ -9,24 +9,26 @@ export function BT_SR() {
   };
 
   return (
-    <div className="relative justify-center h-full p-4 flex flex-wrap w-full ">
-      <div>
-        <div className="bg-slate-800 size-8 flex justify-center">
-          <button onClick={() => opensearch()}>
-            <FaSearch />
-          </button>
-        </div>
+    <div className="relative justify-center p-4 flex flex-nowrap">
+      <div className="bg-orange-600 text-cyan-300 size-8 flex justify-center">
+        <button onClick={() => opensearch()}>
+          <FaSearch />
+        </button>
       </div>
       <div>
         <div>
           <form id="">
-            <div className={twMerge(search ? "block" : "hidden")}>
+            <div
+              className={twMerge(
+                search ? "justify-center flex flex-nowrap" : "hidden"
+              )}
+            >
               <input
                 placeholder="Buscar Productos..."
                 type="search"
                 className="w-96 h-8 bg-slate-700 outline-none justify-center flex text-white dark:bg-cyan-400 dark:text-black"
               />
-              <div className=" size-8 flex justify-center">
+              <div className=" bg-orange-600 text-cyan-300 size-8 flex justify-center">
                 <button>
                   <FaSearch />
                 </button>
@@ -38,15 +40,14 @@ export function BT_SR() {
     </div>
   );
 }
+
 export function Delete_opt() {
   return (
-    <div>
-      <button
-        className="text-bold text-black text-sm"
-        onClick={(e) => window.location.reload(e)}
-      >
-        x
-      </button>
-    </div>
+    <button
+      className="text-black text-sm bg-gray-500 rounded-lg p-0 m-0 border-2 border-black"
+      onClick={(e) => window.location.reload(e)}
+    >
+      <p>x</p>
+    </button>
   );
 }

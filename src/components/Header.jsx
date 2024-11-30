@@ -23,8 +23,10 @@ export default function Header() {
           <img src="./Logo.jpg" alt="Logo" className="h-20 w-36" />
         </a>
       </div>
-      <div>
-        <BT_SR />
+      <div className=" size-full flex justify-center">
+        <div>
+          <BT_SR />
+        </div>
       </div>
 
       <div className=" gap-4 max-w-screen-xl flex flex-wrap items-center justify-around p-2 w-auto">
