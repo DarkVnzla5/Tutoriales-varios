@@ -14,7 +14,7 @@ export function BT_SR() {
   return (
     <div className="relative justify-center p-4 flex flex-nowrap">
       <div className="bg-orange-600 text-cyan-300 size-8 flex justify-center">
-        <button onClick={visibility()}>
+        <button onClick={visibility}>
           <FaSearch />
         </button>
       </div>
@@ -62,7 +62,7 @@ export function Switch_langs() {
   return (
     <div>
       <div>
-        <button onClick={changeLang()}>
+        <button onClick={changeLang}>
           {lang ? <Flag_ven /> : <Flag_us />}
         </button>
       </div>
@@ -78,7 +78,7 @@ export function DarkMode() {
   return (
     <div>
       <div>
-        <button onClick={DarkModehandler()}>
+        <button onClick={DarkModehandler}>
           {dark ? <FaMoon /> : <IoSunnyOutline />}
         </button>
       </div>

@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <div className=" size-full flex justify-center">
         <div>
-          <BT_SR />
+          <BT_SR />{" "}
         </div>
       </div>
 
