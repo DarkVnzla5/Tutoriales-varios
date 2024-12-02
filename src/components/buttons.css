@@ -1,6 +1,4 @@
-.button_tracked {
-  display: flex;
-  size: 100%;
-  padding: 1rem;
-  background-color: rgb(97, 97, 97);
+.button_submit {
+  color: aqua;
+  background-color: black;
 }

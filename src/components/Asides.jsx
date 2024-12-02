@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Delete_opt } from "./Buttons";
 
-export default function Aside1() {
+export default function Aside1(lang) {
   const [tracked, SetTracked] = useState("");
   const [minprice, SetMinprice] = useState("");
   const [maxprice, SetMaxprice] = useState("");
@@ -51,7 +51,11 @@ export default function Aside1() {
         </div>
         <div>
           <div className="bg-orange-700 border-black border-2 rounded-md p-2 dark:text-white dark:bg-black">
-            <p className="underline pt-2 pb-2">Precio</p>
+            {lang ? (
+              <p className="underline pt-2 pb-2">Precio</p>
+            ) : (
+              <p className="underline pt-2 pb-2">Price</p>
+            )}
 
             <div className="flex justify-between pb-2">
               <button

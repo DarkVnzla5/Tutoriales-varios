@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Aside1 from "./components/Asides";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <body className="bg-black dark:bg-white">
       <Header />
@@ -18,5 +18,3 @@ function App() {
     </body>
   );
 }
-
-export default App;
