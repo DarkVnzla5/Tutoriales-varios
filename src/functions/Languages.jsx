@@ -1,4 +1,4 @@
-export function Lang_es() {
+export function Lang_en() {
   return (
     <>
       <div>

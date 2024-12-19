@@ -13,32 +13,33 @@ export function BT_SR() {
 
   return (
     <div className="relative justify-center p-4 flex flex-nowrap">
-      <div className="bg-orange-600 text-cyan-300 size-8 flex justify-center">
-        <button onClick={visibility}>
+      <div
+        className="bg-orange-600 text-cyan-300 size-8 flex  justify-center "
+        onClick={visibility}
+      >
+        <button>
           <FaSearch />
         </button>
       </div>
       <div>
-        <div>
-          <form id="mainSearch">
-            <div
-              className={twMerge(
-                search ? "justify-center flex flex-nowrap" : "hidden"
-              )}
-            >
-              <input
-                placeholder="Buscar Productos..."
-                type="search"
-                className="w-96 h-8 bg-slate-700 outline-none justify-center flex text-white dark:bg-cyan-400 dark:text-black"
-              />
-              <div className="button_submit size-8 flex justify-center">
-                <button className="">
-                  <FaSearch />
-                </button>
-              </div>
+        <form id="mainSearch">
+          <div
+            className={twMerge(
+              search ? "justify-center flex flex-nowrap" : "hidden"
+            )}
+          >
+            <input
+              placeholder="Buscar Productos..."
+              type="search"
+              className="w-fit h-8 bg-slate-700 outline-none justify-center flex text-white dark:bg-cyan-400 dark:text-black"
+            />
+            <div className="bg-orange-600 text-cyan-300 size-8 flex justify-center">
+              <button className="">
+                <FaSearch />
+              </button>
             </div>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
     </div>
   );
@@ -78,10 +79,24 @@ export function DarkMode() {
   return (
     <div>
       <div>
-        <button onClick={DarkModehandler}>
-          {dark ? <FaMoon /> : <IoSunnyOutline />}
+        <button
+          className="hover:bg-cyan-400 hover:text-black size-8 flex justify-center p-2 text-gray-300"
+          onClick={DarkModehandler}
+        >
+          {dark ? <IoSunnyOutline /> : <FaMoon />}
         </button>
       </div>
+    </div>
+  );
+}
+export function Logo() {
+  return (
+    <div className="h-full w-36 bg-white">
+      <button>
+        <a href="/">
+          <img className="size-full " src="./Logo.jpg" alt="Logo" />
+        </a>
+      </button>
     </div>
   );
 }
